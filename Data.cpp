@@ -2,9 +2,7 @@
 #include <string>
 Data::Data()
 {
-    setDia(1);
-    setMes(1);
-    setAno(1);
+
 }
 
 Data::Data(int d, int m, int a){
