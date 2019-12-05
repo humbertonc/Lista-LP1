@@ -7,16 +7,22 @@ Data::Data()
 
 Data::Data(int d, int m, int a){
     if(d >= 1 && d <= 31){
-        setDia(d);
+        if(m >= 1 && m <= 12){
+        
+            dia = d;
+            mes = m;
+            ano = a;
+            
+        }else{
+        dia = 1;
+        mes = 1;
+        ano = 1;
+        }
     }else{
-        setDia(1);
+        dia = 1;
+        mes = 1;
+        ano = 1;
     }
-    if(m >= 1 && m <= 12){
-        setMes(m);
-    }else{
-        setMes(1);
-    }
-    setAno(a);
 }
 
 int Data::compara(Data d){
