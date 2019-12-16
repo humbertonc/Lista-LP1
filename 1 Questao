@@ -1,0 +1,9 @@
+  a) Classes são parecidas com os structs de c, que são variáveis estruturadas em diferentes partes, porém as classes também possuem
+  métodos, e não apenas atributos, para ler e manipular seus atributos e outros. Essas classes são usadas como moldes para a construção
+  de objetos, com os mesmos atributos e métodos, mas que podem ser utilizados em programas em c++, de forma parecida que os tipos primitivos
+  servem de molde para as variáveis.
+  b) Os construtores são utilizados para inicializar corretamente um objeto, sendo ele o primeiro método invocado na sua criação. 
+  Eles podem ser utilizados para armazenar e verificar dados recebidos na criação do objeto.
+  c) O encapsulamento pode ser utilizado tanto para ocultar métodos e atributos que o usuário não necessita ter conhecimento, como o
+  funcionamento interno de um programa, como também para a proteção de atributos, para que o usuário não possa alterá-los livremente,
+  como por exemplo em um programa responsável pelo saldo de uma conta bancária.
